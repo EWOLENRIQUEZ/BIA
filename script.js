@@ -1,4 +1,4 @@
-const message = ` You felt like sunday morning—basking in the sun while sipping coffee on the porch.\n\n And that's why always perceive you as luminous,you radiates your presence in the room. And I love it.\n\n You never knew how much baggage you lifted just by being there. Thank you for being you\n\nI wish for more people to meet your soul. So they could glimpse God's most beautiful creation.`;
+const message = ` You felt like sunday morning—basking in the sun while sipping coffee on the porch.\n And that's why always perceive you as luminous,you radiates your presence in the room. And I love it.\n You never knew how much baggage you lifted just by being there. Thank you for being you\nI wish for more people to meet your soul. So they could glimpse God's most beautiful creation.`;
 
 
 function showLetter() {
@@ -22,6 +22,7 @@ function showLetter() {
     typeWriter();
   }, 600);
 }
+
 
 
 
