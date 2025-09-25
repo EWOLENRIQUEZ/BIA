@@ -1,4 +1,4 @@
-const message = `I don’t even know if you’ll ever read this.\nBut if you do… I just want you to know, I still think about you sometimes.\n\nWe both tried. We both cared. But the universe just never gave us enough space to become “us.”\n\nI just wonder… if we had met at a different point in life, would the ending have been different?\n\nAnyway, I hope you're doing okay, even though we’re not in each other’s lives anymore.`;
+const message = `You felt like sunday morning, basking in sun while sipping coffe in the porch.\n\n I always perceive you as luminous,you radiates your presence in the room. And I love it \n\n You've never know how much baggage you lifted just by being there . Thank you for being you\n\nI wish for more people to know your soul. Because I want them to witness God's most beautiful creaton;
 
 function showLetter() {
   document.getElementById("introText").style.opacity = 0;
@@ -21,3 +21,4 @@ function showLetter() {
     typeWriter();
   }, 600);
 }
+
