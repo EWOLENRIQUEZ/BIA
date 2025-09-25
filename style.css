@@ -77,10 +77,12 @@ body {
 }
 .signature {
   position: absolute;
-  bottom: -20px;
+  top: 500px;   /* 👈 pushes the flower lower inside */
   right: 6px;
   width: 180px;
   opacity: 0.9;
   pointer-events: none;
   transform: rotate(-2deg);
 }
+
+
