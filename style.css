@@ -77,13 +77,15 @@ body {
 }
 .signature {
   position: absolute;
-  top: 200px;   /* 👈 pushes the flower lower inside */
+  top: 200px;   /* ✅ pushes the flower lower inside the letter */
   right: 6px;
   width: 180px;
-  opacity: 0.9;
+  opacity: 0.9; /* ✅ keeps it stronger (not faint like option 2) */
   pointer-events: none;
   transform: rotate(-2deg);
+  /* no z-index → stays in normal stacking order (above text if overlapping) */
 }
+
 
 
 
