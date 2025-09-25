@@ -70,20 +70,19 @@ body {
   width: 25px;
   height: 100%;
   background-image: radial-gradient(circle, #1e1e2f 6px, transparent 7px);
-  background-size: 25px 40px;
+  background-size: 25px 55px;
   background-repeat: repeat-y;
   background-position: center;
   pointer-events: none;
 }
 .signature {
   position: absolute;
-  top: 410px;   /* ✅ pushes the flower lower inside the letter */
+  bottom: 0px;
   right: 6px;
-  width: 180px;
-  opacity: 0.9; /* ✅ keeps it stronger (not faint like option 2) */
+  width: 140px;
+  opacity: 0.9;
   pointer-events: none;
   transform: rotate(-2deg);
-  /* no z-index → stays in normal stacking order (above text if overlapping) */
 }
 
 
